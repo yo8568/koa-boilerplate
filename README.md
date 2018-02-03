@@ -1,7 +1,5 @@
 # Koa-Boilerplate
 
-[![code style][standardjs-image]][standardjs-url]
-
 > A Koa v2 boilerplate for building restful API and view engine
 
 ## Features
