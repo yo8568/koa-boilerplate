@@ -77,6 +77,3 @@ $ npm test
 ## License
 
 MIT © [Kenny-Chang]()
-
-[standardjs-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
-[standardjs-url]: http://standardjs.com/
