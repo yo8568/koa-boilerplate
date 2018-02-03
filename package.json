@@ -1,7 +1,7 @@
 {
   "name": "koa-boilerplate",
   "version": "0.0.0",
-  "description": "A Koa.js boilerplate with restful API and view engine.",
+  "description": "A Koa v2 boilerplate for building restful API and view engine.",
   "main": "index.js",
   "scripts": {
     "start": "npm run prod",

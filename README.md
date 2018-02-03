@@ -2,7 +2,7 @@
 
 [![code style][standardjs-image]][standardjs-url]
 
-> A boilerplate for building paginated api and view services based on Koa v2
+> A Koa v2 boilerplate for building restful API and view engine
 
 ## Features
 
@@ -11,7 +11,7 @@
 - Use [Bunyan](https://github.com/trentm/node-bunyan) for logging errors and events
 - Use [Nodemon](https://github.com/remy/nodemon) for watching and restarting
 - Use [Nunjucks](https://github.com/mozilla/nunjucks) for rendering view
-- Use [Jest](https://facebook.github.io/jest) as test framework
+- Use [Jest](https://facebook.github.io/jest) as test framework (TODO)
 
 ## Structure
 
@@ -20,7 +20,8 @@
 ├── bin
 │   └── server.js            # entry of api server
 ├── src
-│   │ 
+│   │
+│   ├── __test__             # testing scripts
 │   ├── config               # app configurations
 │   ├── controllers          # api implementations
 │   ├── middlewares          # middleware implementations
@@ -30,7 +31,6 @@
 │   │   └── mongoose.js      # mongoose connection service
 │   ├── routes.js            # router definitions
 │   └── index.js             # koa instance
-├── test                     # testing scripts
 └── package.json
 ```
 
